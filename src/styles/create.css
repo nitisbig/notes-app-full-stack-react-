@@ -1,0 +1,53 @@
+.createNotes{
+    margin-top: 1rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+
+}
+.myInputNote{
+    width: 75%;
+    border-radius: 10px;
+    background-color: #1c1919;
+    box-shadow: 0 0.1px 20px 1px rgb(0, 0, 0);
+}
+.myInputNote>form{
+    padding: 2rem;
+}
+.myInputNote>form>textarea{
+    resize: none;
+    overflow: hidden;
+}
+.titleInput{
+    background-color: #1c1919;
+    border: none;
+    height: 3rem;
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+}
+.mainText{
+    background-color: #1c1919;
+    border: none;
+    height: 20rem;
+    width: 100%;
+    font-size: 18px;
+    font-weight:600;
+}
+.saveBtn{
+    height: 3rem;
+    width: 9rem;
+    background-color: #1c1919;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0.1px 0.1px 5px 1px rgb(99, 99, 99);
+    transition: all 0.3s ease;
+}
+.saveBtn:hover{
+    box-shadow: 0.1px 0.1px 15px 1px white;
+}
+.myInputNote>form>textarea, .titleInput:focus{
+    outline: none;
+}
+
+
